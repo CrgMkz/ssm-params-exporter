@@ -22,8 +22,12 @@ Provide the filename created from the step above.
 
 Provide the AWS region you are importing the params to.
 
+```
 python3 main.py upload --filename ['filename'] --region ['aws region']
+```
 
 Example:
 
+```
 python3 main.py upload --filename params_eu-west-1_141020_2314.txt --region eu-west-1
+```
